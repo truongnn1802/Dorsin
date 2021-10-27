@@ -6,6 +6,7 @@ import SectionFeature from '../../components/SectionFeature';
 import SectionPricing from '../../components/SectionPricing';
 import SectionService from '../../components/SectionService';
 import SectionTeam from '../../components/SectionTeam';
+import WorkProcess from '../../components/WorkProcess';
 import './style.css'
 
 
@@ -22,6 +23,7 @@ function HomePage(props) {
             <BgrUnder/>
             <SectionPricing/>
             <SectionTeam/>
+            <WorkProcess/>
         </div>
     );
 }

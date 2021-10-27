@@ -1,0 +1,38 @@
+.process-box {
+  text-align: center;
+  float: left;
+  position: relative;
+  width: calc(100% / 3);
+}
+.process-box__icon {
+}
+.process-box__icon span {
+  font-size: 48px;
+  line-height: 72px;
+  color: var(--primary-color);
+}
+.process-box h4 {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.process-box .process-line {
+  position: absolute;
+  border: 1px dashed #e0e0e0;
+  width: 67%;
+  left: 65%;
+  top: 50px;
+}
+.process-box .process-line span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    padding: 7px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}

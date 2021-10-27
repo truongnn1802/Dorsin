@@ -1,0 +1,14 @@
+
+#work-process{}
+.process-body{
+    margin-bottom: 64px;
+}
+.process-body::after{
+    content:'';
+    display: block;
+    clear: left;
+}
+#work-process .btn-process{
+    display: flex;
+    justify-content: center;
+}

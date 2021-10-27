@@ -5,7 +5,7 @@ import "./style.css"
 
 function SectionTeam(props) {
   return (
-    <section className="section" id="team">
+    <section className="section pt-s pb" id="team">
       <div className="container">
         <TitleSection
           titlePrimary="BEHIND THE PEOPLE"
