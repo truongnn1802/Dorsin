@@ -3,7 +3,7 @@ import "./style.css";
 
 function ProcessBox(props) {
   return (
-        <div className="process-box">
+    <div className="process-box">
       <div className="process-box__icon">
         <span class="material-icons">{props.icon}</span>
       </div>

@@ -6,6 +6,7 @@ import SectionFeature from '../../components/SectionFeature';
 import SectionPricing from '../../components/SectionPricing';
 import SectionService from '../../components/SectionService';
 import SectionTeam from '../../components/SectionTeam';
+import SectionTesti from '../../components/SectionTesti';
 import WorkProcess from '../../components/WorkProcess';
 import './style.css'
 
@@ -24,6 +25,7 @@ function HomePage(props) {
             <SectionPricing/>
             <SectionTeam/>
             <WorkProcess/>
+            <SectionTesti/>
         </div>
     );
 }
