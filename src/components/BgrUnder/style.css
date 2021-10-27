@@ -1,0 +1,50 @@
+.bgr-below {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: 100px 0;
+}
+.bgr-below .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #512da8, #711e72);
+  opacity: 0.9;
+}
+.content-home {
+  position: relative;
+  z-index: 10;
+}
+.content-home .row {
+  justify-content: center;
+  align-items: center;
+}
+.bgr-below .box-body {
+  text-align: center;
+}
+.bg-below__title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.bg-below__desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+.bg-below .bg-pattern-effect{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bg-below .bg-pattern-effect img{
+    max-width: 100%;
+    display: block;
+}

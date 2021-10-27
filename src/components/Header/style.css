@@ -1,0 +1,87 @@
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	padding: 20px 0;
+	transition: all 0.3s 0.3s;
+}
+
+header .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header .col-left {
+	align-self: center;
+	margin-right: 16px;
+}
+
+header .col-left .logo-link {
+	font-size: 1.25rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-family: "Poppins", sans-serif;
+}
+
+header .col-right {
+	flex: 1;
+	display: flex;
+	margin-left: 50px;
+	align-items: center;
+}
+
+header .col-right .navbar-list {
+	list-style: none;
+	padding: 0;
+}
+
+header .col-right .navbar-list .navbar-item {
+	display: inline-block;
+}
+
+header .col-right .navbar-list .navbar-link {
+	padding: 15px 8px;
+	margin: 0 10px;
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	line-height: 1.625rem;
+}
+
+header .col-right .navbar-list .navbar-link:first-child {
+	text-transform: capitalize;
+}
+
+header .col-right .navbar-list .navbar-link:hover {
+	color: #fff;
+}
+
+header .col-right .header__button {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header .col-right .btn-header {
+	padding: 10px 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-radius: 30px;
+	background-color: var(--primary-color);
+	color: #fff;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+header .col-right .btn-header:hover{
+	transform: translateY(-5px);
+}
+
+.header.active {
+	background: #272a33;
+	padding: 10px 0;
+}

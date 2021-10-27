@@ -1,0 +1,29 @@
+.section__title {
+	width: calc(100% / 3 * 2);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section__title .title-primary {
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding-bottom: 1rem;
+	line-height: 1;
+}
+
+.section__title .border-title {
+	width: 50px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #fb3e3e;
+	margin-top: 1rem;
+	border: none;
+}
+
+.section__title .sub-title {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	letter-spacing: 0.02em;
+}

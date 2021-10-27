@@ -1,0 +1,42 @@
+.service-box {
+	text-align: center;
+	transition: all .3s;
+	padding: 15px;
+	padding-bottom: 30px;
+}
+
+.service-box:hover {
+	transform: translateY(-1rem);
+}
+
+.service-box:hover .service-box__icon {
+	background-color: var(--primary-color);
+}
+
+.service-box:hover .service-box__icon span {
+	color: #fff;
+}
+
+.service-box__icon {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+}
+
+.service-box__icon span {
+	font-size: 32px;
+	color: var(--primary-color);
+}
+
+.service-box .title-service {
+	padding-top: 8px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
