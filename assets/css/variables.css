@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #fb3e3e;
+  --second-color: #95a0ab;
+  --color-light-1: #afb5bd;
+  --color-light-2: #98a0aa;
+  --color-text: #fff;
+  --bgr-light: #f8f9fa;
+
+  --gutter-x: 1.5rem;
+
+  --bgr-img: url('../images/bg-home.jpg');
+
+}
