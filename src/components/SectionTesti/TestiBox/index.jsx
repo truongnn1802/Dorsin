@@ -6,7 +6,7 @@ function TestiBox(props) {
       <div className="col col-4">
            <div className="testi-box">
            <div className="testi-box__content">
-               <img src={props.srcImg} 
+               <img src={process.env.PUBLIC_URL+props.srcImg} 
                alt="" className="testi-box__avatar" />
                <p className="text-mute">{props.content}</p>
            </div>

@@ -1,0 +1,73 @@
+.bg-started {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: 100px 0;
+}
+
+.bg-started .bg-pattern-effect {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bg-started .bg-pattern-effect img {
+  display: block;
+  max-width: 100%;
+}
+
+.bg-started .content-home {
+  position: relative;
+  text-align: center;
+}
+
+.bg-started .content-home .home-title {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.border-bottom {
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 32px auto 24px;
+}
+
+.bg-started .content-home .home-desc {
+  margin: 24px auto 40px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.bg-started .content-home .play-video {
+  width: 82px;
+  height: 82px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.bg-started .row {
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-started .row .box-body {
+  width: calc(100% / 3 * 2);
+  padding: 0 15px;
+}
+
+.bg-started .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #512da8, #711e72);
+  opacity: 0.9;
+}

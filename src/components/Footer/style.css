@@ -1,0 +1,57 @@
+#footer {
+  padding: 50px 0;
+  background-color: #272a33;
+}
+#footer h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#footer .footer__list {
+  list-style: none;
+}
+#footer .footer__list .footer__link {
+  padding-top: 8px;
+  display: inline-block;
+  font-size: 14px;
+  color: var(--color-light-2);
+  text-transform: capitalize;
+}
+#footer p {
+  line-height: 1.5rem;
+  color: var(--color-light-2);
+  font-size: 14.4px;
+}
+#footer .form-group{
+    height: 40px;
+    position: relative;
+}
+#footer .form-group input{
+    width: 100%;
+    height: inherit;
+    background: #2e313a;
+    border: none;
+    padding: 8px 30px 8px 20px;
+    color: #fff;
+}
+#footer .form-group input:focus{
+    border: none;
+    outline: none;
+}
+#footer .form-group button{
+    background: transparent;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0 16px 0 8px;
+}
+#footer .form-group button i{
+    font-size: 16px;
+    color: #acacac;
+}

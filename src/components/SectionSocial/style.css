@@ -1,0 +1,32 @@
+#social {
+    padding: 20px 0 ;
+    background-color: var(--bgr-light);
+}
+.social-network {
+    padding:  24px 0 16px;
+}
+.social-network-link {
+    display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-1);
+  color: var(--color-light-1);
+  line-height: 48px;
+  text-align: center;
+  margin-right: 8px;
+}
+.social-network-link i {
+    font-size: 19px;
+}
+
+.contact-icon {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact-content{
+    font-size: 20px;
+}
+#social .col{
+    align-self: center;
+}

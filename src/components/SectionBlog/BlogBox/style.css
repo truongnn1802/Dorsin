@@ -1,0 +1,36 @@
+.blog-box{
+  transition: all .3s .1s;
+}
+.blog-box:hover{
+    transform: translateY(-1rem);
+}
+.blog-box .blog__thumnail{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.blog-box h5.text-mute{
+    margin: 24px 0 6px;
+    font-weight: 500;
+}
+.blog-box h4{
+    margin: 8px 0 8px;
+}
+.blog-box .blog-box__title{
+    color: #272a33;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blog-box .blog-box__title:hover{
+    color: var(--primary-color);
+}
+.btn-more{
+    display: inline-block;
+    margin-top: 16px;
+    color: var(--primary-color);
+}
+.btn-more:hover{
+    color: #000;
+}

@@ -17,7 +17,7 @@
 	width: 50px;
 	height: 2px;
 	margin: 0 auto;
-	background-color: #fb3e3e;
+	background-color: var(--primary-color);
 	margin-top: 1rem;
 	border: none;
 }

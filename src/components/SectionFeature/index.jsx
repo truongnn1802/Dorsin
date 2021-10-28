@@ -30,7 +30,7 @@ function SectionFeature(props) {
           </div>
           <div className="col col-7">
             <div className="feature-right">
-              <img src={"assets/images/online-world.svg"} alt="feature-img" className="feature-img" />
+              <img src={process.env.PUBLIC_URL+"/assets/images/online-world.svg"} alt="feature-img" className="feature-img" />
             </div>
           </div>
         </div>

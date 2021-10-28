@@ -15,19 +15,19 @@ function SectionTeam(props) {
         <div className="member-list">
             <div className="row">
                 <MemberItem
-                 img="./assets/images/photos1.jpg"
+                 img="/assets/images/photos1.jpg"
                  name="Frank Johnson"
                  duties="CEO"/>
                 <MemberItem
-                 img="./assets/images/photos2.jpg"
+                 img="/assets/images/photos2.jpg"
                  name="Elaine Stclair"
                  duties="DESIGNER"/>
                 <MemberItem
-                 img="./assets/images/photos3.jpg"
+                 img="/assets/images/photos3.jpg"
                  name="Wanda Arthur"
                  duties="DEVELOPER"/>
                 <MemberItem
-                 img="./assets/images/photos4.jpg"
+                 img="/assets/images/photos4.jpg"
                  name="Joshua Stemple"
                  duties="MANAGER"/>
             </div>

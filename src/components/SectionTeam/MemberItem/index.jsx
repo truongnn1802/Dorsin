@@ -6,7 +6,7 @@ function MemberItem(props) {
     <div className="col col-3">
       <div className="member-item">
         <div className="member__photo">
-          <img src={props.img} 
+          <img src={process.env.PUBLIC_URL+props.img} 
           alt="Frank Johnson" />
         </div>
         <h3 className="member__name">{props.name}</h3>

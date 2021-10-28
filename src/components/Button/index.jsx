@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import "./style.scss";
+import "./style.css";
 
 Button.propTypes = {
   bgColor: PropTypes.bool,
