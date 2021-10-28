@@ -9,3 +9,6 @@
 .bg-below{
   --bgr-img: url('../images/img-1.jpg');    
 }
+.bg-started{
+  --bgr-img: url('../images/bg-started.jpg');    
+}
