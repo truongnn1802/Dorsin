@@ -1,7 +1,17 @@
 import React from "react";
 import "./style.css";
 
-function BgHome() {
+function BgHome({onClickHome}) {
+
+  const handleClickButton = ()=>{
+   
+    if(!onClickHome) return
+    onClickHome(true)
+
+  }
+
+  console.log("re-render BG home");
+
   return (
     <section className="section bgHome">
       <div className="background-img">
@@ -17,7 +27,12 @@ function BgHome() {
                   Etiam sed.Interdum consequat proin vestibulum class at.
                 </p>
                 <div className="play-video">
-                  <a href="#" className="play-btn">
+                  <a href="#"
+                   className="play-btn"
+                   onClick={()=>{
+                     handleClickButton()
+                   }}
+                   >
                     <span class="material-icons icon-play">play_arrow</span>
                   </a>
                 </div>
@@ -34,4 +49,4 @@ function BgHome() {
   );
 }
 
-export default BgHome;
+export default React.memo(BgHome);

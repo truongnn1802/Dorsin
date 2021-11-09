@@ -3,7 +3,6 @@ import './style.css';
 function Header(props) {
     const [navbar,setNavbar]=useState(false);
     function changeBackground() {
-        console.log(window.scrollY);
         if(window.scrollY > 80){
             setNavbar(true)
         }else{

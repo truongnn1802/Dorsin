@@ -28,6 +28,7 @@
 #footer .form-group{
     height: 40px;
     position: relative;
+    margin-top: 1rem;
 }
 #footer .form-group input{
     width: 100%;

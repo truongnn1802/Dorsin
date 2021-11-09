@@ -1,0 +1,56 @@
+#modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999999 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+#modal.modal-visible{
+  visibility: visible;
+}
+.section-video {
+  width: 50%;
+  height: 531px;
+  position: relative;
+  transform: translateY(30px);
+  transition: all .3s .1s;
+}
+#modal.modal-visible .section-video{
+  transform: translateY(0);
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.close {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  transform: translate(100%, -100%);
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.close::before,
+.close::after {
+  content: "";
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+}
+.close::before {
+  transform: rotate(-45deg) translate(12px, 12px);
+}
+.close::after {
+  transform: rotate(45deg) translate(11px, -10px);
+}

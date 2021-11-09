@@ -1,29 +1,60 @@
-#setting{
-    position: fixed;
-    background:  #2b2424;
-    width: 40px;
-    height: 40px;
-    left: 0;
-    top: 57px;
-    padding: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+#setting {
+  position: fixed;
+  width: 189px;
+  left: 0;
+  top: 160px;
+  box-shadow: 2px 2px 0 0 rgb(0 0 0 / 8%);
+  cursor: pointer;
+  z-index: 999999;
+  transition: all 0.2s 0.1s;
+  transform: translate(-100%);
 }
-#setting span{
-    animation-name: setting;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+#setting.open {
+  transform: translate(0);
+  
 }
-@keyframes setting{
-    0%{
-        transform: rotate(0deg);
-    }
-    
-    100%{
-       transform: rotate(360deg);
-    }
+#setting .setting-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #2b2424;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transform: translateX(100%);
+}
+#setting span {
+  animation-name: setting;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes setting {
+  0% {
+    transform: rotate(0deg);
+  }
 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.choose-color {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.choose-color h4 {
+  white-space: nowrap;
+  font-size: 16px;
+  margin: 8px 3px 12px;
+  color: #212529;
+  font-weight: 500;
+}
+.choose-color .list-color {
+  display: flex;
+  flex-wrap: wrap;
 }

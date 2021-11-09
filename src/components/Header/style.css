@@ -7,6 +7,7 @@ header {
 	z-index: 99;
 	padding: 20px 0;
 	transition: all 0.3s 0.3s;
+
 }
 
 header .container {
@@ -76,6 +77,7 @@ header .col-right .btn-header {
 	color: #fff;
 	transition: all 0.5s;
 	cursor: pointer;
+	font-family: Rubik, sans-serif;
 }
 header .col-right .btn-header:hover{
 	transform: translateY(-5px);

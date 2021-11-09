@@ -1,5 +1,11 @@
 .member-item {
   text-align: center;
+  transition: all 0.3s;
+  border-bottom: 1px solid #ecf0f5;
+  padding-bottom: 16px;
+}
+.member-item:hover {
+  transform: translateY(-15px);
 }
 .member-item .member__photo {
 }
@@ -13,10 +19,10 @@
   padding-top: 20px;
   margin-bottom: 7px;
 }
-.member-item .member__duties{
-    font-size: 13px;
-    color:#a8aeb4;
-    text-transform: uppercase;
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
+.member-item .member__duties {
+  font-size: 13px;
+  color: #a8aeb4;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }

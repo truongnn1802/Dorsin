@@ -1,3 +1,4 @@
+@import "../../App.scss";
 
 .btn {
     padding: 10px 20px;
@@ -8,10 +9,7 @@
     line-height: 1.5;
     border-radius: 0.25rem;
     border: 1px solid transparent;
-    background-color: var(--primary-color);
-    transition: all .3s .05s;
-    cursor: pointer;
-}
-.btn:hover{
-    transform: translateY(-5px);
+    background-color: $primary-color;
+
+  
 }

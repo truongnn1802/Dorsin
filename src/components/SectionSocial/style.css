@@ -19,7 +19,9 @@
 .social-network-link i {
     font-size: 19px;
 }
-
+.social-network-link:hover i{
+    color: var(--primary-color);
+}
 .contact-icon {
     font-size: 20px;
     padding-right: 10px;
