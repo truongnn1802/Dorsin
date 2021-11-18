@@ -8,7 +8,7 @@ function App() {
   return (
     <Fragment>
      {/* <HomePage/> */}
-     {/* <HomeTwo/> */}
+     <HomeTwo/>
   </Fragment>
   );
 }
