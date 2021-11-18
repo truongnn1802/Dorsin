@@ -27,3 +27,9 @@
 	margin-bottom: 16px;
 	letter-spacing: 0.02em;
 }
+
+@media screen and (max-width:991px) {
+	.section__title{
+		width: 100%;
+	}
+}

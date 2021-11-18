@@ -32,3 +32,9 @@
 #social .col{
     align-self: center;
 }
+
+@media screen and (max-width:991px) {
+    .contact{
+        margin: 24px 0 16px;
+    }
+}

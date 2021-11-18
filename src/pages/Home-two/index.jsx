@@ -17,8 +17,8 @@ import SectionTesti from "../../components/SectionTesti";
 import Settings from "../../components/Settings";
 import WorkProcess from "../../components/WorkProcess";
 
-function HomePage() {
-  const [open, setOpen] = useState(false);
+function HomeTwo() {
+    const [open, setOpen] = useState(false);
 
   const onClickHome = (status) => {
     setOpen(status);
@@ -53,4 +53,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeTwo;

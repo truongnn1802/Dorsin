@@ -71,3 +71,10 @@
   background-image: linear-gradient(to right, #512da8, #711e72);
   opacity: 0.9;
 }
+
+
+@media screen and (max-width:991px) {
+  .bg-started .row .box-body {
+    width: 100%;
+}
+}

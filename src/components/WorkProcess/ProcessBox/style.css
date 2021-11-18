@@ -39,4 +39,14 @@
       border-radius: 50%;
   }
   
+
+  @media screen and (max-width:991px) {
+    .process-box{
+      float: none;
+      width: 100%;
+    }
+    .process-line{
+      display: none;
+    }
+  }
   

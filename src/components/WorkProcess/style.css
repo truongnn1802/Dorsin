@@ -5,6 +5,7 @@
 }
 .process-body{
     margin-bottom: 64px;
+    margin-top: 48px;
 }
 .process-body::after{
     content:'';

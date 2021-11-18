@@ -1,5 +1,6 @@
 .blog-box{
   transition: all .3s .1s;
+  margin-top: 24px;
 }
 .blog-box:hover{
     transform: translateY(-1rem);
