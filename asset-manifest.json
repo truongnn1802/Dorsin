@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dorsin/static/css/main.cd6b6b06.chunk.css",
-    "main.js": "/Dorsin/static/js/main.5dbb35ca.chunk.js",
-    "main.js.map": "/Dorsin/static/js/main.5dbb35ca.chunk.js.map",
+    "main.js": "/Dorsin/static/js/main.a5e98050.chunk.js",
+    "main.js.map": "/Dorsin/static/js/main.a5e98050.chunk.js.map",
     "runtime-main.js": "/Dorsin/static/js/runtime-main.515787de.js",
     "runtime-main.js.map": "/Dorsin/static/js/runtime-main.515787de.js.map",
     "static/js/2.13923f20.chunk.js": "/Dorsin/static/js/2.13923f20.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.515787de.js",
     "static/js/2.13923f20.chunk.js",
     "static/css/main.cd6b6b06.chunk.css",
-    "static/js/main.5dbb35ca.chunk.js"
+    "static/js/main.a5e98050.chunk.js"
   ]
 }
